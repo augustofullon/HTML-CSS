@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE DIV</title>
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: rgb(0, 136, 255);
+            background-color: rgba(0, 195, 255, 0.24);
+            width: 300px;
+        }
+
+        div:hover{
+            color: ghostwhite;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste</h1>
+    <p>Passe o mouse aqui para ter acesso aos cursos</p>
+    <div>
+        Passe o mouse aqui
+        <p>link para os cursos</p>
+        <p><img src="capa-video.png" alt=""></p>
+    </div>
+</body>
+</html>
